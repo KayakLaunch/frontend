@@ -136,7 +136,7 @@
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
-        var mapData = 'https://github.com/binghamchris/kayaklaunch/blob/master/map/kayaklaunch.kmz?raw=true';
+        var mapData = 'https://github.com/binghamchris/kayaklaunch/blob/gh-pages/map/kayaklaunch.kmz?raw=true';
         var kmlLayer = new google.maps.KmlLayer(mapData, {
           suppressInfoWindows: false,
           preserveViewport: false,
