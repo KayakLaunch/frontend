@@ -131,7 +131,7 @@
         var myLatLong = new google.maps.LatLng(47.5595986,7.5885761);
         var mapOptions = {
           center: myLatLong,
-          scrollwheel: false,
+          scrollwheel: true,
           zoom: 6
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
