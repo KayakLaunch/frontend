@@ -86,7 +86,7 @@ a:hover, a:focus {
 }
 p { 
   color: #aaa; 
-  font-size: 14px; 
+  font-size: 18px; 
 }
   
 .text-left { text-align: left; }
@@ -892,7 +892,7 @@ label {
     text-align: center;
     color: #444;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 26px;
     height: 80px;
     line-height: 80px;
     padding: 0;
@@ -1012,7 +1012,7 @@ label {
       font-family: "Montserrat", Helvetica, Arial, sans-serif;
       height: 55px;
       display: block;
-      font-size: 12px;
+      font-size: 16px;
       letter-spacing: .5px;
       line-height: 80px;
       margin: 0 0 0 40px;
@@ -2207,25 +2207,42 @@ label {
 
   }
 
+.orange-section {
+  background: #ec652d;
+  color: #f9f9f9;
+}
 
-  .orange-section {
-    background: #ec652d;
-    color: #f9f9f9;
-  }
+.orange-section p, .orange-section h2, .orange-section h3 {
+  color: #f9f9f9;
+}
 
-  .orange-section p, .orange-section h2, .orange-section h3 {
-    color: #f9f9f9;
-  }
+.blue-section {
+  background: #4bb3d8;
+  color: #f9f9f9;
+}
 
-  .blue-section {
-    background: #4bb3d8;
-    color: #f9f9f9;
-  }
+.blue-section p,  .blue-section h2,  .blue-section h3 {
+  color: #f9f9f9;
+}
 
-  .blue-section p,  .blue-section h2,  .blue-section h3 {
-    color: #f9f9f9;
-  }
+.green-section {
+  background: #01A310;
+  color: #f9f9f9;
+}
 
-  #about i {
-    font-size: 37px;
-  }
+.green-section p,  .green-section h2,  .green-section h3 {
+  color: #f9f9f9;
+}
+
+.green-section a {
+  color: #4bb3d8   !important;
+}
+
+#about i {
+  font-size: 37px;
+}
+
+#school img {
+  width: 45%;
+  margin-top: 5%;
+}
