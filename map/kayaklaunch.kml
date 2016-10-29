@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Kayak Launch Spots</name>
+		<description><![CDATA[Locations from which a kayak can be launched, along with nearby essential facilities.]]></description>
+		<Folder>
+			<name>Launching Places</name>
+			<Placemark>
+				<name>Luzern Ufschötti - Boat Ramp</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.3181444,47.0479592,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brunnen - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.5998943,46.9945166,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bauen - Beach in Public Park
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.5801131,46.9345475,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Flüelen - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.6229359,46.9018581,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bönigen - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.8982821,46.6883752,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iseltwald - Boat Ramp</name>
+				<description><![CDATA[Small and slipery]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>7.9677258,46.7114611,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brienz - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.0378321,46.7541228,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uerikon - Stone Jetty
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.7678181,47.2344441,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rapperswil - Steps
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.8134089,47.2261341,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Basel - Beach in Public Park
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.6171437,47.5577459,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Basel - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.5864284,47.5665267,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Basel - Boat Ramp
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.5861856,47.5693011,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kanuschule Bodensee - Jetty
+</name>
+				<description><![CDATA[Private launching spot operated by Kanuschule Bodensee]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>9.418754,47.5266522,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Romanshorn - Boat Ramp in Public Park
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.3813398,47.572096,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kreuzlingen - Boat Ramp
+</name>
+				<description><![CDATA[Scouted but not used yet (02-Aug-2016)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>9.1816306,47.65165,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Konstanz - Boat Ramp in Public Park</name>
+				<description><![CDATA[Scouted but not used yet (02-Aug-2016)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>9.1739032,47.6691598,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lugano - Beach
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.9621025,46.0020371,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Porto Ceresio - Beach
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.9058338,45.906792,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camping Monte Generoso - Beach
+</name>
+				<description><![CDATA[Located in a private camp ground]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>8.9759427,45.9282575,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zürich Zürichhorn - Pebble Beach
+</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.5532936,47.3526367,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zürich Quai 61 - Boat Ramp
+</name>
+				<description><![CDATA[Scouted but not used yet]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>8.5361905,47.3592371,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug Hafen - Boat Ramp 2</name>
+				<description><![CDATA[Scouted but not used]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>8.505633138120174,47.17240484487751,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug Hafen - Boat Ramp 1</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.505256958305836,47.17279481268979,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug Hafen - Boat Ramp 3</name>
+				<description><![CDATA[Scouted but not used]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>8.506665118038654,47.171912993605986,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug - Boat Ramp</name>
+				<description><![CDATA[Scouted but not used]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>8.514093160629272,47.16631131136415,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bönigen - Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.898366600275041,46.6903958389627,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ufenau - Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.77836350351572,47.2161399585221,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ringgenberg - Pebble Beach</name>
+				<description><![CDATA[Next to ferry pier]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>7.898060828447342,46.70130312121036,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reggenberg - Pebble Beach</name>
+				<description><![CDATA[Next to ferry pier]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>7.898060828447342,46.70130312121036,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>La Grazie - Harbour</name>
+				<description><![CDATA[Can lunch from the side]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>9.836262613534927,44.068848102287966,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Portovenere - Sandy Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.835266172885895,44.051662394632146,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Levanto - Sandy Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.610247611999512,44.16745066680422,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vernazza - Sandy Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.682615622878075,44.13493798784065,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Sandy Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.647151120007038,44.14467685501202,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Sand and Stone Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.654863476753235,44.145678898005684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bonassola - Gravel Beach</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.580520689487457,44.18308514760648,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Barcelona Maritim - Sandy Beach</name>
+				<description><![CDATA[Scouted but not used]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<Point>
+					<coordinates>2.2172215953469276,41.403563302164564,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Parking</name>
+			<Placemark>
+				<name>Luzern Ufschötti - Parking</name>
+				<description><![CDATA[Pay and display, CHF 7-10, coins only]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.3171627,47.0474073,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Flüelen - Parking
+</name>
+				<styleUrl>#icon-503-3F5BA9-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.6234455,46.9015612,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brunnen - Parking
+</name>
+				<description><![CDATA[Pay and Display, coins only]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.6000553,46.9948331,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bönigen - Parking
+</name>
+				<description><![CDATA[Free]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>7.8966862,46.6886217,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brienz - Parking
+</name>
+				<styleUrl>#icon-503-3F5BA9-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.0379072,46.7543267,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uerikon - Parking</name>
+				<description><![CDATA[Free but limited, fills up early]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.7676451,47.234567,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kreuzlingen - Parking
+</name>
+				<description><![CDATA[Scouted but not used yet (02-Aug-2016)]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.1803432,47.652763,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lugano - Parking
+</name>
+				<styleUrl>#icon-503-3F5BA9-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.9617163,46.0063594,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camping Monte Generoso - Parking
+</name>
+				<description><![CDATA[Located in a private camp ground]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.9770827,45.9286474,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zürich Zürichhorn - Parking
+</name>
+				<description><![CDATA[Pay and display, max 4 hours, CHF 2]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.5535324,47.3537833,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug Hafen - Parking</name>
+				<description><![CDATA[Pay and display, coins only, CHF 8 for up to 24 hours]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>8.505336083471775,47.1732030108799,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>La Grazie - Parking</name>
+				<description><![CDATA[Pay and display, sorry approx. EUR14 per day]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.836377948522568,44.068973127920295,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Levanto - Parking</name>
+				<description><![CDATA[Roadside pay and display; EUR 1.80 per hour]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.610876590013504,44.16769813642288,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lavento - Parking</name>
+				<description><![CDATA[Small pay and display car park, EUR 1 per hour]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.615323022007942,44.17053710864323,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Levanto - Parking</name>
+				<description><![CDATA[Pay and display; EUR 1.8 per hour or EUR 18 for 24 hours]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.608934670686722,44.16997124901487,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Parking</name>
+				<description><![CDATA[Pay on exit; EUR 2.50 per hour]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.646436646580696,44.1445507864536,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bonassola - Parking</name>
+				<description><![CDATA[Details unknown]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>9.581476897001266,44.18359053351868,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Barcelona Maritim - Parking</name>
+				<description><![CDATA[Free public car park]]></description>
+				<styleUrl>#icon-503-3F5BA9</styleUrl>
+				<Point>
+					<coordinates>2.2165295854210854,41.40387161658064,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Toilets</name>
+			<Placemark>
+				<name>Luzern Ufschötti -Toilets</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.319743,47.0464076,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brunnen - Toilets
+</name>
+				<description><![CDATA[Inside entrance way to Hallenbad]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>8.5991849,46.9950207,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bauen - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.5794009,46.9347233,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bönigen - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>7.8968096,46.6887432,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brienz - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.0385858,46.7548633,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Uerikon - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.7669598,47.2345352,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rapperswil - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.8155104,47.2251824,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kanuschule Bodensee - Toilets</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.418416,47.5264049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Romanshorn - Toilets</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>9.3807256,47.571868,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camping Monte Generoso- Toilets</name>
+				<description><![CDATA[Located in a private camp ground]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>8.9768896,45.9281997,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zürich Zürichhorn - Toilets
+</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.5539159,47.3529583,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug Hafen - Toilets</name>
+				<description><![CDATA[Public toilet behind the kiosk in the swimming area]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>8.50740909576416,47.17173430323007,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug - Toilets</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.513517156243324,47.17033780811625,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ufenau - Toilets</name>
+				<styleUrl>#icon-503-009D57-nodesc</styleUrl>
+				<Point>
+					<coordinates>8.778313547372818,47.21696684385225,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ringgenberg - Toilets
+</name>
+				<description><![CDATA[Signage for public toilets seen here; don't know exact location of actual toilets]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>7.8959057,46.7007149,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>La Grazie - Toilets</name>
+				<description><![CDATA[Inside cafe, customers only]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>9.835517294704912,44.06504228239541,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Portovenere - Toilets</name>
+				<description><![CDATA[EUR 0.50]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>9.833337999880314,44.048911206373525,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vernazza - Toilets</name>
+				<description><![CDATA[Inside train station]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>9.684649407863617,44.1349928510636,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Toilets</name>
+				<description><![CDATA[Inside train station]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>9.649029672145844,44.14576839537599,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Toilets</name>
+				<description><![CDATA[Costs EUR 1]]></description>
+				<styleUrl>#icon-503-009D57</styleUrl>
+				<Point>
+					<coordinates>9.654661975800991,44.145882672734906,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Food</name>
+			<Placemark>
+				<name>Luzern Ufschötti - Food</name>
+				<description><![CDATA[Cafe and Food Market]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>8.316414399999985,47.0470253,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bönigen - Food
+</name>
+				<description><![CDATA[Mini market]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>7.892917000000011,46.6863769,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rapperswil - Food
+</name>
+				<description><![CDATA[Multiple restaurents]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>8.8151591,47.2256915,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camping Monte Generoso - Food
+</name>
+				<description><![CDATA[Located in a private camp ground]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>8.977257,45.9282295,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zug - Food</name>
+				<description><![CDATA[Coop to Go]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>8.5162503272295,47.17105851084902,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>La Grazie - Food</name>
+				<description><![CDATA[Cafe]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.835522994399073,44.065036018659264,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vernazza - Gellato</name>
+				<description><![CDATA[Really good gelateria]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.682358466088774,44.13490742804085,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Food</name>
+				<description><![CDATA[Kiosk selling sandwiches and drinks]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.646859094500542,44.14524873133238,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vernazza - Fruit Juice</name>
+				<description><![CDATA[Takeaway selling made to order fresh fruit juices]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.683845750987528,44.13464081116386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Levanto - Food</name>
+				<description><![CDATA[Very good Focacciaria; approximately EUR 7 for lunch with a drink]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.61293887346983,44.16948089707556,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterosso - Food</name>
+				<description><![CDATA[Good backery]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.65506598353386,44.14719744790733,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Levanto - Pizzeria</name>
+				<description><![CDATA[Really good pizzeria; approx. EUR 8 per pizza]]></description>
+				<styleUrl>#icon-503-F4B400</styleUrl>
+				<Point>
+					<coordinates>9.611664488911629,44.17045823010866,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-009D57'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-503-009D57-nodesc'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-3F5BA9'>
+			<IconStyle>
+				<color>ffA95B3F</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-503-3F5BA9-nodesc'>
+			<IconStyle>
+				<color>ffA95B3F</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-F4B400'>
+			<IconStyle>
+				<color>ff00B4F4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
