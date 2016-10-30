@@ -53,10 +53,8 @@
     
     <!-- Map Section -->
     <div id="home" class="section">
-      
+      <input id="pac-input" class="map-controls" type="text" placeholder="Search Box">
       <div class="row" id="map-canvas">
-        <div class="col-md-12 col-sm-12 col-xs-12 empty">
-        </div>
       </div>
     </div>
     <!-- /Map Section -->
@@ -67,9 +65,9 @@
         <div class="content">
           <div class="text-center">
             <h2 class="title">What's KayakLaunch?</h2>
-            <p>Planning a kayak trip requires knowledge of the terrain; where to park, where to launch, etc. <span class="brand">KayakLaunch</span> does the scouting for you, helping you plan your kayak trips with ease</p>         
+            <p>Planning a kayak trip requires knowledge of the terrain; where to park, where to launch, etc. <span class="brand">KayakLaunch</span> does the scouting for you, helping you plan your kayak trips with ease</p>
+            </br>       
           </div>
-          </br>
           <div class="row">
             <div class="col-md-1 col-sm-1 col-xs-12"></div>
             <div class="col-md-1 col-sm-1 col-xs-3">
@@ -78,6 +76,7 @@
             <div class="col-md-3 col-sm-3 col-xs-9">
               <h3 class="title">Launching Spots</h3>
               <p>Finding suitable places to launch or land a kayak can be challenging. <span class="brand">KayakLaunch</span> does the heavy lifting, showing you the launching spots used by local kayakers</p>
+              </br>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-12"></div>
             <div class="col-md-1 col-sm-1 col-xs-3">
@@ -85,11 +84,11 @@
             </div>
             <div class="col-md-3 col-sm-3 col-xs-9">
               <h3 class="title">Food</h3>
-              <p>When kayaking in unfamiliar places, finding a good spot for lunch can be a matter of trial and error. <span class="brand">KayakLaunch</span> removes the errors by showing you where local kayakers go the chow down  </p>
+              <p>When kayaking in unfamiliar places, finding a good spot for lunch can be a matter of trial and error. <span class="brand">KayakLaunch</span> removes the errors by showing you where local kayakers go the chow down</p>
+              </br>
             </div>
             <div class="col-md-1 col-sm-1 col-xs-12"></div>
           </div>
-          </br>
           <div class="row">
             <div class="col-md-1 col-sm-1 col-xs-12"></div>
             <div class="col-md-1 col-sm-1 col-xs-3">
@@ -98,6 +97,7 @@
             <div class="col-md-3 col-sm-3 col-xs-9">
               <h3 class="title">Parking</h3>
               <p>No-one wants to carry heavy kayaks far to reach a launching spot. <span class="brand">KayakLaunch</span> shows you the nearest parking spots, along with how much they cost and what forms of payment they accept.</p>
+              </br>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-12"></div>
             <div class="col-md-1 col-sm-1 col-xs-3">
@@ -106,6 +106,7 @@
             <div class="col-md-3 col-sm-3 col-xs-9">
               <h3 class="title">Bathrooms</h3>
               <p>After hours on the water, there’s often one common question; where to… go! <span class="brand">KayakLaunch</span> helps you find the nearest public toilets quickly, along with information on how much they cost to use</p>
+              </br>
             </div>
             <div class="col-md-1 col-sm-1 col-xs-12"></div>
           </div>
@@ -135,7 +136,7 @@
           <div class="text-center">
             <h2 class="title">Disclaimer</h2>
             <p>I created <span class="brand">KayakLaunch</span> to practice my web development skills. This isn't a business, it's a hobby!</p>
-            <p>Please note that <span class="brand">KayakLaunch</span> is provided without warranty or guarantee; use with caution and at your own risk!</p>         
+            <p>Please note that <span class="brand">KayakLaunch</span> is provided without warranty or guarantee; please use the content of the map with caution and at your own risk.</p>         
           </div>
         </div>
       </div>
@@ -171,10 +172,8 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
-    <!--<script src="js/AnimOnScroll.js"></script>-->
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz4whM-6qf0A8Hug4kxEHOYtp57i940b4">
-    </script>
+    <script src="js/AnimOnScroll.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz4whM-6qf0A8Hug4kxEHOYtp57i940b4&libraries=places"></script>
     <script src="js/init.js"></script>
 
   </body>
