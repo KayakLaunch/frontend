@@ -132,7 +132,16 @@
         var mapOptions = {
           center: myLatLong,
           scrollwheel: true,
-          zoom: 3
+          zoom: 3,
+          zoomControl: true,
+          zoomControlOptions: {
+              position: google.maps.ControlPosition.RIGHT_TOP
+          },
+          streetViewControl: true,
+          streetViewControlOptions: {
+              position: google.maps.ControlPosition.RIGHT_TOP
+          },
+          fullscreenControl: true
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
