@@ -2250,7 +2250,7 @@ label {
 .map-controls {
   margin-top: 10px;
   border: 1px solid transparent;
-  border-radius: 2px 0 0 2px;
+  border-radius: 2px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   height: 32px;
@@ -2267,7 +2267,9 @@ label {
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 300px;
+  width: 33%;
+  min-width: 170px;
+  max-width: 300px;
 }
 
 #pac-input:focus {
@@ -2276,4 +2278,8 @@ label {
 
 .pac-container {
   font-family: Roboto;
+}
+
+.navbar-collapse {
+  float: right;
 }
