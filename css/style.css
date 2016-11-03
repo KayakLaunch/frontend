@@ -2267,7 +2267,9 @@ label {
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 300px;
+  width: 33%;
+  min-width: 170px;
+  max-width: 300px;
 }
 
 #pac-input:focus {
