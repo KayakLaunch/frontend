@@ -2277,3 +2277,7 @@ label {
 .pac-container {
   font-family: Roboto;
 }
+
+.navbar-collapse {
+  float: right;
+}
