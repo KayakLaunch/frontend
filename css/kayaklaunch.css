@@ -1,0 +1,111 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: rgba(248, 248, 248, 1);
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+#home-body{
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg') no-repeat;
+	background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#launching-body {
+	padding-top: 50px;
+}
+
+#launching-map {
+	height: 100%;
+	padding: 0;
+
+}
+
+#launching-map .row {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* Google Maps styles */
+.map-controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 33%;
+  min-width: 170px;
+  max-width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+
+/*Routes listing styles*/
+.routes-list img {
+	width: 100%;
+}
+
+.route-map {
+	min-height: 300px;
+}
+
+.route-row {
+	min-height: 250px;
+}
+
+#route-row-brinzersee {
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to right, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+	background-repeat: no-repeat;
+    background-position: left 70%;
+    background-attachment: scroll;
+}
+
+/*Route information page styles*/
+.route-title-row {
+	min-height: 30%;
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 15%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+	background-repeat: no-repeat;
+    background-position: left 70%;
+    background-attachment: scroll;
+    display: flex;
+    align-items: flex-end;
+}
+
