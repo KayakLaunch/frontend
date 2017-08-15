@@ -9,7 +9,7 @@
     <meta name="author" content="Chris Bingham">
 
 
-    <title>KayakLanuch: Paddling Routes</title>
+    <title>KayakLanuch: Launching spots and routes for kayaks, canoes, and SUPs</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -49,38 +49,38 @@
       </div>
     </nav>
     <!-- End navbar -->
-
+    <!--<div>test</div>-->
     <!-- Begin main page content -->
     <div class="container">
+      <div id="route-title-row-iseltwald" class="row route-title-row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-10">
+          <h1>Bönigen to Iseltwlad</h1>
+          <p>A relaxed paddle to the middle of Brienzersee for lunch in the village of Iseltwald</p>
+        </div>
+        <div class="col-lg-1">
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-1">
         </div>
         <div class="col-lg-10">
-          <h1>Paddling Routes</h1>
-          <p>Our listing of paddling routes helps you plan your next trip with:</p>
-          <ul>
-            <li>Information on routes others have already paddled</li>
-            <li>Tips for where to stop for lunch</li>
-            <li>Information about known hazards along the route</li>
-            <li>Downloadable maps of the route to follow</li>
-          </ul>
+          <h2>Where is this route?</h2>
+          <div id="map-canvas" class="route-map"></div>
         </div>
         <div class="col-lg-1">
         </div>
       </div>
-      <div id="route-row-iseltwald" class="row route-row">
+      <div class="row">
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-5">
-          <h2><a href="route-iseltwald.html">Bönigen to Iseltwlad</a></h2>
-          <p>A relaxed paddle to the middle of Brienzersee for lunch in the village of Iseltwald.</p>
-        </div>
-        <div class="col-lg-3">
-          <h3>About this route</h3>
+        <div class="col-lg-6">
+          <h2>About this route</h2>
           <table class="table table-condensed">
             <tr>
               <th>Paddling Environment</th>
-              <td></td>
+              <td>Lake, flat weather</td>
             </tr>
             <tr>
               <th>Paddling Time</th>
@@ -94,46 +94,38 @@
               <th>Diffculty</th>
               <td>Beginner</td>
             </tr>
-          </table>
+          </table> 
         </div>
-        <div class="col-lg-2">
-          <h3>Where is this route?</h3>
-          <div id="map-canvas-iseltwald" class="route-map-preview"></div>
+        <div class="col-lg-4 col-route-weather">
+          <h2>Weather forcast for this route</h2>
+          <iframe src="https://www.meteoblue.com/en/weather/widget/daily/iseltwald_switzerland_2660246?geoloc=fixed&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&windgust=1&winddirection=0&winddirection=1&uv=0&uv=1&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 378px;height: 352px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week/iseltwald_switzerland_2660246?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank">Provided by meteoblue.com</a></div>
         </div>
         <div class="col-lg-1">
         </div>
       </div>
-      <div id="route-row-lachen" class="row route-row">
+      <div class="row">
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-5">
-          <h2><a href="route-lachen.html">Lachen Round Trip</a></h2>
-          <p>description</p>
-        </div>
-        <div class="col-lg-3">
-          <h3>About this route</h3>
+        <div class="col-lg-10">
+          <h2>Hazards on this route</h2>
           <table class="table table-condensed">
             <tr>
-              <th>Paddling Environment</th>
+              <th>Weather</th>
               <td></td>
             </tr>
             <tr>
-              <th>Paddling Time</th>
-              <td>
-                  <p>Kayak: 4 hours</p>
-                  <p>Canoe: 4 hours</p>
-                  <p>SUP: 4  hours</p>
-              </td>
+              <th>Environment</th>
+              <td></td>
             </tr>
             <tr>
-              <th>Diffculty</th>
-              <td>Beginner</td>
+              <th>Traffic</th>
+              <td></td>
             </tr>
-          </table>
-        </div>
-        <div class="col-lg-2">
-          <h3>Where is this route?</h3>
-          <div id="map-canvas-lachen" class="route-map-preview"></div>
+            <tr>
+              <th>Wildlife</th>
+              <td></td>
+            </tr>
+          </table> 
         </div>
         <div class="col-lg-1">
         </div>
@@ -152,6 +144,6 @@
 
     <!-- Google Maps Javascript API calls -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKaxuDRE8K0nnjW3-X-sGztahpmrZBC90&libraries=places"></script>
-    <script src="js/googlemaps-routes.js"></script>
+    <script src="js/googlemaps-route-iseltwald.js"></script>
 
 </body></html>

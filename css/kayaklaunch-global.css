@@ -7,11 +7,13 @@ html {
 body {
 	height: 100%;
 	background-color: rgba(248, 248, 248, 1);
+  padding-top: 50px;
 }
 
 .container {
 	width: 100%;
 	height: 100%;
+
 }
 
 /* Home page styles */
@@ -85,11 +87,12 @@ body {
 
 /*Routes listing styles*/
 .route-map {
-	min-height: 300px;
+	min-height: 400px;
 }
 
 .route-row {
 	min-height: 250px;
+  border-top: 1px rgb(119, 119, 119) solid;
 }
 
 .route-map-preview {
@@ -99,31 +102,31 @@ body {
 }
 
 #route-row-iseltwald {
-	background-image: url("../img/home-background.jpg");
+	/*background-image: url("../img/home-background.jpg");
 	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
 	background-repeat: no-repeat;
   background-position: center 67%;
-  background-attachment: scroll;
+  background-attachment: scroll;*/
+
 }
 
 #route-row-lachen {
-  background-image: url("../img/home-background.jpg");
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
-  background-repeat: no-repeat;
-  background-position: center 67%;
-  background-attachment: scroll;
+
 }
 
 /*Route information page styles*/
-/*
+
 .route-title-row {
 	min-height: 30%;
 	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 15%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
 	background-repeat: no-repeat;
-  background-position: left 70%;
+  background-position: 65% 66%;
   background-attachment: scroll;
   display: flex;
   align-items: flex-end;
 }
-*/
+
+.col-route-weather {
+    text-align: right;
+}

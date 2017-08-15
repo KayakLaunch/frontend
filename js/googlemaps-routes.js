@@ -14,23 +14,18 @@
           },
           streetViewControl: false,
           fullscreenControl: false,
-          mapTypeControl: true,
-          mapTypeControlOptions: {
-            style: google.maps.MapTypeControlStyle.DEFAULT,
-            position: google.maps.ControlPosition.TOP_RIGHT
-          }
-
+          mapTypeControl: false,
+          mapTypeId: 'terrain'
         };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
+        var mapIseltwald = new google.maps.Map(document.getElementById("map-canvas-iseltwald"),
             mapOptions);
 
-        var mapData = 'https://github.com/binghamchris/kayaklaunch/blob/master/map/iseltwald.kml?raw=true';
-        var kmlLayer = new google.maps.KmlLayer(mapData, {
+        var mapData = 'https://raw.githubusercontent.com/binghamchris/kayaklaun.ch/dev-v2.0/map/iseltwald.kml';
+        var kmlLayerRoute = new google.maps.KmlLayer(mapData, {
           suppressInfoWindows: false,
           preserveViewport: false,
-          map: map
+          map: mapIseltwald
         });
-
       }
       function initialize() {
         initializeMap();

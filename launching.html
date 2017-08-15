@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--<link rel="icon" href="https://getbootstrap.com/favicon.ico">-->
+    <meta name="description" content="KayakLaun.ch: Launching spots and routes for kayaks, canoes, and SUPs">
+    <meta name="author" content="Chris Bingham">
 
-    <title>Kayak Lanuch: Launching spots & routes for kayaks & canoes</title>
+
+    <title>KayakLanuch: Launching Spots</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -17,28 +17,16 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/navbar-fixed-top.css" rel="stylesheet">
-    <link href="css/kayaklaunch.css" rel="stylesheet">
+    <!-- KayakLaun.ch global CSS -->
+    <link href="css/kayaklaunch-global.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="css/ie-emulation-modes-warning.js"></script>
-
-    <!-- Montserrat Sans -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet' type='text/css'>        
-    <!-- Lato Font -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Google Analytics -->
+    <script src="js/googleanalytics.js"></script>
   </head>
 
   <body id="launching-body">
-    <!-- Fixed navbar -->
+
+    <!-- Begin navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -54,17 +42,21 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="launching.html">Launching Spots</a></li>
-            <li><a href="routes.html">Routes</a></li>
+            <li><a href="routes.html">Paddling Routes</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
+    <!-- End navbar -->
+ 
+    <!-- Begin main page content -->
     <div id="launching-map">
       <input id="pac-input" class="map-controls" type="text" placeholder="Search">
-      <div class="row" id="map-canvas">
+      <div class="row row-map" id="map-canvas">
       </div>
-    </div> <!-- /container -->
+    </div>
+    <!-- End main page content -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -74,8 +66,10 @@
     <script src="js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Google Maps Javascript API calls -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKaxuDRE8K0nnjW3-X-sGztahpmrZBC90&libraries=places"></script>
-    <script src="js/launching-google-maps.js"></script>
+    <script src="js/googlemaps-launching.js"></script>
   
 
 </body></html>

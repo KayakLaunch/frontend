@@ -17,7 +17,8 @@
           mapTypeControlOptions: {
             style: google.maps.MapTypeControlStyle.DEFAULT,
             position: google.maps.ControlPosition.TOP_RIGHT
-          }
+          },
+          mapTypeId: 'terrain'
 
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
