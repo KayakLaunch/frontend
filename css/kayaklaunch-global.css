@@ -1,3 +1,5 @@
+/* Global styles */
+
 html {
 	height: 100%;
 }
@@ -12,6 +14,7 @@ body {
 	height: 100%;
 }
 
+/* Home page styles */
 #home-body{
 	background-image: url("../img/home-background.jpg");
 	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg') no-repeat;
@@ -24,6 +27,11 @@ body {
     background-size: cover;
 }
 
+.btn-home-cta {
+  margin-top: 1em;
+}
+
+/* Launching spots page styles */
 #launching-body {
 	padding-top: 50px;
 }
@@ -31,10 +39,9 @@ body {
 #launching-map {
 	height: 100%;
 	padding: 0;
-
 }
 
-#launching-map .row {
+#launching-map .row-map {
     height: 100%;
     margin: 0;
 }
@@ -77,10 +84,6 @@ body {
 
 
 /*Routes listing styles*/
-.routes-list img {
-	width: 100%;
-}
-
 .route-map {
 	min-height: 300px;
 }
@@ -89,23 +92,38 @@ body {
 	min-height: 250px;
 }
 
-#route-row-brinzersee {
+.route-map-preview {
+  min-height: 200px;
+  min-width: 100% ;
+  margin-bottom: 1em;
+}
+
+#route-row-iseltwald {
 	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to right, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
 	background-repeat: no-repeat;
-    background-position: left 70%;
-    background-attachment: scroll;
+  background-position: center 67%;
+  background-attachment: scroll;
+}
+
+#route-row-lachen {
+  background-image: url("../img/home-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 67%;
+  background-attachment: scroll;
 }
 
 /*Route information page styles*/
+/*
 .route-title-row {
 	min-height: 30%;
 	background-image: url("../img/home-background.jpg");
 	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 15%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
 	background-repeat: no-repeat;
-    background-position: left 70%;
-    background-attachment: scroll;
-    display: flex;
-    align-items: flex-end;
+  background-position: left 70%;
+  background-attachment: scroll;
+  display: flex;
+  align-items: flex-end;
 }
-
+*/
