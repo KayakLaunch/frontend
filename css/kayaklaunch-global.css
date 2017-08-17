@@ -16,9 +16,11 @@ body {
 
 }
 
+
+/*********************/
 /* Home page styles */
 
-/* Phones */
+/* Phones background */
 @media (max-width: 768px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
@@ -33,7 +35,7 @@ body {
   }
 }
 
-/* Tablets */
+/* Tablets background */
 @media (min-width: 768px) and (max-width: 992px) {
   #home-body{
   	background-image: url("../img/home-background.jpg");
@@ -48,7 +50,7 @@ body {
   }
 }
 
-/* Desktops */
+/* Desktops background */
 @media (min-width: 992px) and (max-width: 1200px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
@@ -63,7 +65,7 @@ body {
   }
 }
 
-/* Large Desktops */
+/* Large Desktops background */
 @media (min-width: 1200px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
@@ -95,7 +97,9 @@ body {
   }
 }
 
+/*********************/
 /* Launching spots page styles */
+
 #launching-body {
 	padding-top: 50px;
 }
@@ -110,8 +114,9 @@ body {
     margin: 0;
 }
 
-
+/*********************/
 /* Google Maps styles */
+
 .map-controls {
   margin-top: 10px;
   border: 1px solid transparent;
@@ -146,8 +151,9 @@ body {
   font-family: Roboto;
 }
 
-
+/*********************/
 /*Routes listing styles*/
+
 .route-map {
 	min-height: 400px;
 }
@@ -181,6 +187,7 @@ body {
   background-size: cover;
 }
 
+/*********************/
 /*Route information page styles*/
 
 #route-title-row-iseltwald {
@@ -210,4 +217,31 @@ body {
 .route-weather {
   width: 378px;
   height: 352px;  
+}
+
+/*********************/
+/* About page */
+.about-title-row {
+  min-height: 30%;
+  background-image: url("../img/about-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/about-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-social-icon  {
+  font-size: 1.2em;
+  text-align: right;
+}
+.about-attribution-row {
+  margin-top: 3em;
+  vertical-align: center;
+}
+.about-social-icon > a {
+  margin-left: 1em;
+  margin-right: 1em;
 }
