@@ -17,20 +17,82 @@ body {
 }
 
 /* Home page styles */
-#home-body{
-	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg') no-repeat;
-	background-repeat: no-repeat;
+
+/* Phones */
+@media (max-width: 768px) {
+  #home-body{
+    background-image: url("../img/home-background.jpg");
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.65) 100%), url('../img/home-background.jpg') no-repeat;
+    background-repeat: no-repeat;
     background-position: left center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+  #home-body{
+  	background-image: url("../img/home-background.jpg");
+  	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.45) 100%), url('../img/home-background.jpg') no-repeat;
+  	background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #home-body{
+    background-image: url("../img/home-background.jpg");
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.45) 100%), url('../img/home-background.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* Large Desktops */
+@media (min-width: 1200px) {
+  #home-body{
+    background-image: url("../img/home-background.jpg");
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .btn-home-cta {
   margin-top: 1em;
+  border-radius: 0px;
+}
+
+/* Align CTA buttons to the bottom of the row on large desktops */
+@media (min-width: 1200px) {
+  .home-cta-div {
+    min-height: 325px;
+  }
+
+  .btn-home-cta {
+    position: absolute;
+    bottom:   0;
+  }
 }
 
 /* Launching spots page styles */
@@ -92,41 +154,60 @@ body {
 
 .route-row {
 	min-height: 250px;
-  border-top: 1px rgb(119, 119, 119) solid;
 }
 
 .route-map-preview {
-  min-height: 200px;
+  min-height: 250px;
   min-width: 100% ;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 #route-row-iseltwald {
-	/*background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 35%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
-	background-repeat: no-repeat;
-  background-position: center 67%;
-  background-attachment: scroll;*/
-
+  background-image: url("../img/iseltwald-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 62%;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 #route-row-lachen {
-
+  background-image: url("../img/lachen-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 42%;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 /*Route information page styles*/
 
-.route-title-row {
+#route-title-row-iseltwald {
 	min-height: 30%;
-	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg');
+	background-image: url("../img/iseltwald-background.jpg");
+	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/iseltwald-background.jpg');
 	background-repeat: no-repeat;
-  background-position: 65% 66%;
+  background-position: center 66%;
   background-attachment: scroll;
+  background-size: cover;
   display: flex;
   align-items: flex-end;
 }
 
-.col-route-weather {
-    text-align: right;
+#route-title-row-lachen {
+  min-height: 30%;
+  background-image: url("../img/lachen-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 42%;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.route-weather {
+  width: 378px;
+  height: 352px;  
 }

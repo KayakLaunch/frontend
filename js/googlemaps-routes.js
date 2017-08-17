@@ -6,7 +6,7 @@
         var myLatLong = new google.maps.LatLng(0.0,0.0);
         var mapOptions = {
           center: myLatLong,
-          scrollwheel: true,
+          scrollwheel: false,
           zoom: 3,
           zoomControl: true,
           zoomControlOptions: {
@@ -25,6 +25,16 @@
           suppressInfoWindows: false,
           preserveViewport: false,
           map: mapIseltwald
+        });
+
+        var mapLachen = new google.maps.Map(document.getElementById("map-canvas-lachen"),
+            mapOptions);
+
+        var mapData = 'https://raw.githubusercontent.com/binghamchris/kayaklaun.ch/dev-v2.0/map/lachen.kml';
+        var kmlLayerRoute = new google.maps.KmlLayer(mapData, {
+          suppressInfoWindows: false,
+          preserveViewport: false,
+          map: mapLachen
         });
       }
       function initialize() {

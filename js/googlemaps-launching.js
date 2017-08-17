@@ -89,9 +89,6 @@
           });
           map.fitBounds(bounds);
         });
-
-
-
       }
       function initialize() {
         initializeMap();

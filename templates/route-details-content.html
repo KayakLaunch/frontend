@@ -1,34 +1,53 @@
     <!-- Begin main page content -->
     <div class="container">
       <div class="row route-title-row">
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
-        <div class="col-lg-10">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
           <h1>Route Name</h1>
           <p>Description of route</p>
         </div>
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
-        <div class="col-lg-10">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
           <h2>Where is this route?</h2>
           <div id="map-canvas" class="route-map"></div>
         </div>
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
-        <div class="col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-route-weather">
+          <h2>Weather forcast for this route</h2>
+          <!-- Change URL to suit location of route -->
+          <iframe id="route-weather-widget"
+                  class="route-weather"
+                  src="https://www.meteoblue.com/en/weather/widget/daily/iseltwald_switzerland_2660246?geoloc=fixed&amp;days=7&amp;tempunit=CELSIUS&amp;windunit=KILOMETER_PER_HOUR&amp;precipunit=MILLIMETER&amp;coloured=coloured&amp;pictoicon=0&amp;pictoicon=1&amp;maxtemperature=0&amp;maxtemperature=1&amp;mintemperature=0&amp;mintemperature=1&amp;windspeed=0&amp;windspeed=1&amp;windgust=0&amp;windgust=1&amp;winddirection=0&amp;winddirection=1&amp;uv=0&amp;uv=1&amp;humidity=0&amp;precipitation=0&amp;precipitation=1&amp;precipitationprobability=0&amp;precipitationprobability=1&amp;spot=0&amp;pressure=0&amp;layout=light"
+                  frameborder="0"
+                  scrolling="NO"
+                  allowtransparency="true"
+                  sandbox="allow-same-origin allow-scripts allow-popups"  >
+          </iframe>
+          <div>
+            <a href="https://www.meteoblue.com/en/weather/forecast/week/iseltwald_switzerland_2660246?utm_source=weather_widget&amp;utm_medium=linkus&amp;utm_content=daily&amp;utm_campaign=Weather%2BWidget" target="_blank">Provided by meteoblue.com</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
           <h2>About this route</h2>
           <table class="table table-condensed">
             <tr>
               <th>Paddling Environment</th>
-              <td></td>
+              <td>Lake / River / Costal / Open Water</td>
+            </tr>
+            <tr>
+              <th>Distance to Paddle</th>
+              <td>##km</td>
             </tr>
             <tr>
               <th>Paddling Time</th>
@@ -44,18 +63,7 @@
             </tr>
           </table> 
         </div>
-        <div class="col-lg-4 col-route-weather">
-          <h2>Weather forcast for this route</h2>
-          <!-- Change URL to suit location of route -->
-          <iframe src="https://www.meteoblue.com/en/weather/widget/daily/iseltwald_switzerland_2660246?geoloc=fixed&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&windgust=1&winddirection=0&winddirection=1&uv=0&uv=1&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 378px;height: 352px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week/iseltwald_switzerland_2660246?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank">Provided by meteoblue.com</a></div>
-        </div>
-        <div class="col-lg-1">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-10">
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
           <h2>Hazards on this route</h2>
           <table class="table table-condensed">
             <tr>
@@ -76,7 +84,7 @@
             </tr>
           </table> 
         </div>
-        <div class="col-lg-1">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
         </div>
       </div>
     </div>
