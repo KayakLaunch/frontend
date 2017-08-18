@@ -2,32 +2,85 @@
 
 html {
 	height: 100%;
+
 }
 
 body {
 	height: 100%;
 	background-color: rgba(248, 248, 248, 1);
   padding-top: 50px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px
+}
+
+h1, h2, h3 {
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;  
 }
 
 .container {
 	width: 100%;
-	height: 100%;
+}
+
+.content {
+  min-height: calc(100% - 46px);
 }
 
 .content li:not(:last-of-type) {
   padding-bottom: 0.35em;
 }
 
+#footer {
+  background-color: rgba(248, 248, 248, 100);
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  border-top: 1px solid #e7e7e7 ;
+  height: 31px;
+  margin-top: 15px;
+}
+
+#footer .social-media {
+  text-align: right;
+}
+#footer .social-media a:not(:last-of-type) {
+  padding-right: 1em;
+}
+
+@media (max-width: 768px) {
+  .title-row {
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-row {
+    height: 175px;
+  }
+}
+
+.title-row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-brand {
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;
+  font-size: 30px;  
+}
 
 /*********************/
 /* Home page styles */
+
+#home-body #footer {
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 60%, rgba(248, 248, 248, 0) 100%);
+  border-top: 0px;
+}
 
 /* Phones background */
 @media (max-width: 768px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.65) 100%), url('../img/home-background.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
     background-repeat: no-repeat;
     background-position: left center;
     background-attachment: fixed;
@@ -38,57 +91,31 @@ body {
   }
 }
 
-/* Tablets background */
-@media (min-width: 768px) and (max-width: 992px) {
-  #home-body{
-  	background-image: url("../img/home-background.jpg");
-  	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.45) 100%), url('../img/home-background.jpg') no-repeat;
-  	background-repeat: no-repeat;
-    background-position: left center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-/* Desktops background */
-@media (min-width: 992px) and (max-width: 1200px) {
-  #home-body{
-    background-image: url("../img/home-background.jpg");
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0.45) 100%), url('../img/home-background.jpg') no-repeat;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-/* Large Desktops background */
-@media (min-width: 1200px) {
-  #home-body{
-    background-image: url("../img/home-background.jpg");
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(0, 0, 0, 0) 100%), url('../img/home-background.jpg') no-repeat;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+#home-body{
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+	background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn-home-cta {
   margin-top: 1em;
-  border-radius: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 10px;
+  min-width: 255px;
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;
+  font-size: 22px;
 }
 
 /* Align CTA buttons to the bottom of the row on large desktops */
+/*
 @media (min-width: 1200px) {
   .home-cta-div {
     min-height: 325px;
@@ -98,7 +125,7 @@ body {
     position: absolute;
     bottom:   0;
   }
-}
+}*/
 
 /*********************/
 /* Launching spots page styles */
@@ -194,27 +221,21 @@ body {
 /*Route information page styles*/
 
 #route-title-row-iseltwald {
-	min-height: 30%;
 	background-image: url("../img/iseltwald-background.jpg");
 	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/iseltwald-background.jpg');
 	background-repeat: no-repeat;
   background-position: center 66%;
   background-attachment: scroll;
   background-size: cover;
-  display: flex;
-  align-items: flex-end;
 }
 
 #route-title-row-lachen {
-  min-height: 30%;
   background-image: url("../img/lachen-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
   background-repeat: no-repeat;
   background-position: center 42%;
   background-attachment: scroll;
   background-size: cover;
-  display: flex;
-  align-items: flex-end;
 }
 
 .route-weather {
@@ -241,15 +262,12 @@ body {
 /*********************/
 /* About page */
 .about-title-row {
-  min-height: 30%;
   background-image: url("../img/about-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/about-background.jpg');
   background-repeat: no-repeat;
   background-position: center 30%;
   background-attachment: scroll;
   background-size: cover;
-  display: flex;
-  align-items: flex-end;
 }
 
 .about-social-icon  {
