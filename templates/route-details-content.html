@@ -1,0 +1,117 @@
+    <!-- Begin main page content -->
+    <div class="container">
+      <div class="row route-title-row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+          <h1>Route Name</h1>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+          <p>Description of route</p>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+          <h2>Where is this route?</h2>
+          <div id="map-canvas" class="route-map"></div>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-route-weather">
+          <h2>Weather forcast for this route</h2>
+          <!-- Change URL to suit location of route -->
+          <iframe id="route-weather-widget"
+                  class="route-weather"
+                  src="https://www.meteoblue.com/en/weather/widget/daily/iseltwald_switzerland_2660246?geoloc=fixed&amp;days=7&amp;tempunit=CELSIUS&amp;windunit=KILOMETER_PER_HOUR&amp;precipunit=MILLIMETER&amp;coloured=coloured&amp;pictoicon=0&amp;pictoicon=1&amp;maxtemperature=0&amp;maxtemperature=1&amp;mintemperature=0&amp;mintemperature=1&amp;windspeed=0&amp;windspeed=1&amp;windgust=0&amp;windgust=1&amp;winddirection=0&amp;winddirection=1&amp;uv=0&amp;uv=1&amp;humidity=0&amp;precipitation=0&amp;precipitation=1&amp;precipitationprobability=0&amp;precipitationprobability=1&amp;spot=0&amp;pressure=0&amp;layout=light"
+                  frameborder="0"
+                  scrolling="NO"
+                  allowtransparency="true"
+                  sandbox="allow-same-origin allow-scripts allow-popups"  >
+          </iframe>
+          <div>
+            <a href="https://www.meteoblue.com/en/weather/forecast/week/iseltwald_switzerland_2660246?utm_source=weather_widget&amp;utm_medium=linkus&amp;utm_content=daily&amp;utm_campaign=Weather%2BWidget" target="_blank">Provided by meteoblue.com</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
+          <h2>About this route</h2>
+          <table class="route-about-table table table-condensed">
+            <tr>
+              <th>Paddling Environment</th>
+              <td>Lake / River / Costal / Open Water</td>
+            </tr>
+            <tr>
+              <th>Distance to Paddle</th>
+              <td>##km</td>
+            </tr>
+            <tr>
+              <th>Paddling Time</th>
+              <td>
+                <ul class="route-craft-times">
+                  <li><img class="icon" src="img/kayak.png" /> Kayak: 2.5 - 3 hours</li>
+                  <li><img class="icon" src="img/canoe.png" /> Canoe: 2.5 - 3 hours</li>
+                  <li><img class="icon" src="img/SUP.png" /> SUP: 2 - 2.5 hours</li>
+                </ul>
+              </td>
+            </tr>
+          </table> 
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
+          <h2>Hazards on this route</h2>
+          <table class="route-hazard-table table table-condensed">
+            <tr>
+              <th>Weather</th>
+              <td>
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Environment</th>
+              <td>
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Traffic</th>
+              <td>
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Wildlife</th>
+              <td>
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+          </table> 
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-1">
+        </div>
+      </div>
+    </div>
+    <!-- End main page content -->
