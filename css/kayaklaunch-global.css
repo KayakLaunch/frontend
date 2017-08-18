@@ -13,7 +13,10 @@ body {
 .container {
 	width: 100%;
 	height: 100%;
+}
 
+.content li:not(:last-of-type) {
+  padding-bottom: 0.35em;
 }
 
 
@@ -217,6 +220,22 @@ body {
 .route-weather {
   width: 378px;
   height: 352px;  
+}
+
+.route-hazard-table > tbody > tr > th, .route-about-table > tbody > tr > th {
+  width: 180px;
+}
+
+.route-hazard-table > tbody > tr > td > ul {
+  padding-left: 11px;
+}
+
+.route-craft-times {
+  padding-left: 0px;
+}
+
+.route-craft-times > li {
+  list-style-type: none;
 }
 
 /*********************/
