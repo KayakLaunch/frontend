@@ -1,0 +1,405 @@
+/* Global styles */
+
+html {
+	height: 100%;
+
+}
+
+body {
+	height: 100%;
+	background-color: rgb(248, 248, 248);
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px
+  z-index: 5;
+}
+
+h1, h2, h3 {
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;  
+}
+
+a:hover {
+  color: rgb(49, 123, 136) !important;
+}
+
+.container {
+	width: 100%;
+}
+
+.content {
+  min-height: calc(100% - 46px);
+}
+
+.content li:not(:last-of-type) {
+  padding-bottom: 0.35em;
+}
+
+#footer {
+  background-color: rgb(248, 248, 248);
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  border-top: 1px solid rgb(30, 81, 146) ;
+  height: 31px;
+  margin-top: 15px;
+}
+
+#footer .social-media {
+  text-align: right;
+}
+#footer .social-media a:not(:last-of-type) {
+  padding-right: 1em;
+}
+
+@media (max-width: 768px) {
+  .route-title-row, .about-title-row {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .route-title-row, .about-title-row {
+    height: 225px;
+  }
+}
+
+.title-row {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 60px;
+}
+
+.navbar {
+  background: rgb(133, 178, 211);
+  border: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    margin-left: 8.3333%;
+    margin-right: 8.3333%;
+  }
+}
+
+.navbar a {
+  color: rgb(248, 248, 248) !important;
+}
+
+.icon-bar {
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.navbar-toggle {
+  border-color: rgb(30, 81, 146);
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgb(49, 123, 136) !important;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: rgb(30, 81, 146);
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: rgb(30, 81, 146);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 10px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: rgb(49, 123, 136);
+}
+.navbar a:hover:not(.navbar-brand) {
+  background-color: rgb(49, 123, 136) !important;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;
+  font-size: 30px;
+}
+
+.btn-primary {
+  background-color: rgb(30, 81, 146);
+  margin-top: 1em;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 10px;
+  border-width: 0px;
+  min-width: 255px;
+  vertical-align: center;
+  font-family: 'Cabin Sketch', 'Comfortaa', cursive;
+  font-size: 22px;
+  color: rgb(248, 248, 248);
+}
+
+.btn-primary:hover {
+  background-color: rgb(49, 123, 136);
+  color: rgb(248, 248, 248) !important;
+}
+
+.icon {
+  height: 40px;
+  padding: 0;
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.navbar .icon {
+  height: 35px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+  }
+}
+
+/*********************/
+/* Home page styles */
+
+#home-body #footer {
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 60%, rgba(248, 248, 248, 0.75) 80%, rgba(248, 248, 248, 0) 100%);
+  border-top: 0px;
+}
+
+/* Phones background */
+@media (max-width: 768px) {
+  #home-body{
+    background-image: url("../img/home-background.jpg");
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+#home-body{
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+	background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********************/
+/* Launching Spots page styles */
+
+#launching-body > #footer {
+  margin-top: 0;
+}
+
+#launching-map {
+	height: 100%;
+	padding: 0;
+}
+
+#launching-map .row-map {
+    height: 100%;
+    margin: 0;
+}
+
+/*********************/
+/* Google Maps styles */
+
+
+div.gmnoprint {
+  margin-top: 60px !important;
+}
+
+div.gmnoprint:last-of-type {
+  margin-top: 0px !important;
+  margin-right: 0 !important;
+}
+
+.gm-style-mtc {
+  margin-top: 60px !important;
+}
+
+.gm-style-mtc > div:last-of-type {
+  margin-top: 60px !important;
+}
+
+.gm-bundled-control {
+  margin-top: 0px !important;
+}
+
+@media (min-width: 1200px) {
+  /*.gm-bundled-control, .map-controls, #pac-input {
+    margin-left: 8.3333% !important;
+    margin-right: 8.3333% !important;
+  }*/
+  .launching-map-search {
+    margin-left: 8.3333% !important;
+  }
+
+  div.gmnoprint {
+    margin-right: 8.3333% !important;
+  }
+  div.gmnoprint:last-of-type {  
+    margin-right: 0 !important;
+  }
+}
+
+.map-controls {
+  margin-top: 60px !important;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 33%;
+  min-width: 170px;
+  max-width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+/*********************/
+/*Routes listing styles*/
+
+.route-map {
+	min-height: 400px;
+}
+
+.route-row {
+	min-height: 250px;
+}
+
+.route-map-preview {
+  min-height: 250px;
+  min-width: 100% ;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+
+#route-row-iseltwald {
+  background-image: url("../img/iseltwald-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 62%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#route-row-lachen {
+  background-image: url("../img/lachen-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 42%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/*********************/
+/*Route information page styles*/
+
+#route-title-row-iseltwald {
+	background-image: url("../img/iseltwald-background.jpg");
+	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/iseltwald-background.jpg');
+	background-repeat: no-repeat;
+  background-position: center 66%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#route-title-row-lachen {
+  background-image: url("../img/lachen-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 42%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.route-weather {
+  width: 378px;
+  height: 352px;  
+}
+
+.route-hazard-table > tbody > tr > th, .route-about-table > tbody > tr > th {
+  width: 180px;
+}
+
+.route-hazard-table > tbody > tr > td > ul {
+  padding-left: 11px;
+}
+
+.route-craft-times {
+  padding-left: 0px;
+}
+
+.route-craft-times > li {
+  list-style-type: none;
+  padding-bottom: 0 !important;
+}
+.route-craft-times > li > .icon {
+  list-style-type: none;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/*********************/
+/* About page */
+.about-title-row {
+  background-image: url("../img/about-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/about-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.about-social-icon  {
+  font-size: 1.2em;
+  text-align: right;
+}
+.about-attribution-row {
+  margin-top: 3em;
+  vertical-align: center;
+}
+.about-social-icon > a {
+  margin-left: 1em;
+  margin-right: 1em;
+}

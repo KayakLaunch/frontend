@@ -1,191 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="KayakLaun.ch: Launching spots and routes for kayaks, canoes, and SUPs">
+    <meta name="author" content="Chris Bingham">
 
-    <title>KayakLaun.ch - Launching spots for kayaks!</title>
+
+    <title>KayakLanuch: Launching spots and routes for kayaks, canoes, and SUPs</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- KayakLaun.ch global CSS -->
+    <link href="css/kayaklaunch-global.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS, for social media icons -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    
 
-    <!-- Montserrat Sans -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet' type='text/css'>        
-    <!-- Lato Font -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+    <!-- Import main fonts from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Comfortaa" rel="stylesheet"> 
 
-    <!-- Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-86819401-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
+    <!-- Google Analytics -->
+    <script src="js/googleanalytics.js"></script>
   </head>
 
-  <body class="blue">
-   
-    <div id="navbar" class="navbar navbar-inverse">
+  <body id="home-body">
+
+    <!-- Begin navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand scroll" href="#home"><i class="fa fa-compass"></i><span>KAYAKLAUN.CH</span></a>
+          <img class="navbar-brand icon" src="img/logo.png" />
+          <a class="navbar-brand" href="index.html">KayakLaunch</a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a class="scroll hidden" href="#home"></a></li>
-            <li><a class="scroll" href="#home">MAP</a></li>
-            <li><a class="scroll" href="#about">ABOUT</a></li>
-            <li><a class="scroll" href="#school">SCHOOL</a></li>
-            <li><a class="scroll" href="#disclaimer">DISCLAIMER</a></li>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="launching.html">Launching Spots</a></li>
+            <li><a href="routes.html">Paddling Routes</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>    
-    <!-- All Page Modals -->
-    
-    <!-- Map Section -->
-    <div id="home" class="section">
-      <input id="pac-input" class="map-controls" type="text" placeholder="Search">
-      <div class="row" id="map-canvas">
-      </div>
-    </div>
-    <!-- /Map Section -->
-
-    <!-- About Section -->
-    <div id="about" class="section blue-section">
-      <div class="container">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">What's KayakLaunch?</h2>
-            <p>Planning a kayak trip requires knowledge of the terrain; where to park, where to launch, etc. <span class="brand">KayakLaunch</span> does the scouting for you, helping you plan your kayak trips with ease</p>
-            </br>       
-          </div>
-          <div class="row">
-            <div class="col-md-1 col-sm-1 col-xs-12"></div>
-            <div class="col-md-1 col-sm-1 col-xs-3">
-              <i class="fa fa-ship"></i>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-9">
-              <h3 class="title">Launching Spots</h3>
-              <p>Finding suitable places to launch or land a kayak can be challenging. <span class="brand">KayakLaunch</span> does the heavy lifting, showing you the launching spots used by local kayakers</p>
-              </br>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-            <div class="col-md-1 col-sm-1 col-xs-3">
-              <i class="fa fa-cutlery"></i>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-9">
-              <h3 class="title">Food</h3>
-              <p>When kayaking in unfamiliar places, finding a good spot for lunch can be a matter of trial and error. <span class="brand">KayakLaunch</span> removes the errors by showing you where local kayakers go to chow down</p>
-              </br>
-            </div>
-            <div class="col-md-1 col-sm-1 col-xs-12"></div>
-          </div>
-          <div class="row">
-            <div class="col-md-1 col-sm-1 col-xs-12"></div>
-            <div class="col-md-1 col-sm-1 col-xs-3">
-              <i class="fa fa-car"></i>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-9">
-              <h3 class="title">Parking</h3>
-              <p>No-one wants to carry heavy kayaks far to reach a launching spot. <span class="brand">KayakLaunch</span> shows you the nearest parking spots, along with how much they cost and what forms of payment they accept.</p>
-              </br>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-            <div class="col-md-1 col-sm-1 col-xs-3">
-              <i class="fa fa-bath"></i>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-9">
-              <h3 class="title">Bathrooms</h3>
-              <p>After hours on the water, there’s often one common question; where to… go! <span class="brand">KayakLaunch</span> helps you find the nearest public toilets quickly, along with how much they cost to use</p>
-              </br>
-            </div>
-            <div class="col-md-1 col-sm-1 col-xs-12"></div>
-          </div>
         </div>
       </div>
-    </div>
-    <!-- /About Section -->
+    </nav>
+    <!-- End navbar -->
 
-    <!-- School Section -->
-    <div id="school" class="section orange-section">
-      <div class="container">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Kayak School</h2>
-            <p>For kayak instruction, I highly recommend Hightide Kayak School in Interlaken</p>
-            <a href="http://hightide.ch/"><img src="http://hightide.ch/wp-content/themes/hightide/images/hightide-logo.svg?cef197"/ ></a>         
-          </div>
+    <!-- Begin main page content -->
+    <div class="container content">
+      <div class="title-row row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+          <h1>What is KayakLaunch?</h1>
+          <p>Whether you paddle a kayak, canoe, or SUP, KayakLaunch helps you plan your next trip by providing a free to use map launching spots and facilities, and details of paddling routes used by other paddlers.</p>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2">
         </div>
       </div>
-    </div>
-    <!-- /School Section -->
-
-    <!-- Disclaimer Section -->
-    <div id="disclaimer" class="section green-section">
-      <div class="container">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Disclaimer</h2>
-            <p>I created <span class="brand">KayakLaunch</span> to practice my web development skills. This isn't a business, it's a hobby!</p>
-            <p>Please note that <span class="brand">KayakLaunch</span> is provided without warranty or guarantee; please use the content of the map with caution and at your own risk.</p>
-            <p>Please note that <span class="brand">KayakLaunch</span> makes use of Google Analytics to measure usage of the site.</p>
-          </div>
+      <div class="row">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 home-cta-div">
+          <!--<h2><a href="launching.html">Launching Spots</a></h2>
+          <p>Our map of launching spots provides you with information about:</p>
+          <ul>
+            <li>Where you can launch or land your kayak, canoe, or SUP</li>
+            <li>Parking near launching spots, including how much they cost</li>
+            <li>Tips for local restaurants and food shops near launching spots</li>
+            <li>And… where the nearest public toilets can be found!</li>
+          </ul>-->
+          <a class="btn btn-lg btn-primary btn-home-cta" href="launching.html" role="button">Find Launching Spots »</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 home-cta-div">
+          <!--<h2><a href="routes.html">Paddling Routes</a></h2>
+           <p>Our listing of paddling routes helps you plan your next trip with:</p>
+          <ul>
+            <li>Information on routes others have already paddled</li>
+            <li>Tips for where to stop for lunch</li>
+            <li>Information about known hazards along the route</li>
+            <li>Downloadable maps of the route to follow</li>
+          </ul>-->
+          <a class="btn btn-lg btn-primary btn-home-cta" href="routes.html" role="button">Find Paddling Routes »</a>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-2">
         </div>
       </div>
-    </div>
-    <!-- /Disclaimer Section -->
 
-    <!-- Footer Section -->
-    <div id="footer" class="section">
+    </div>
+    <!-- End main page content -->
+
+    <!-- Begin footer content -->
+    <div id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <p>&copy; 2016, Made by <a href="https://www.linkedin.com/in/binghamchris">Chris Bingham</a></p>   
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <p>&copy; 2017 <a href="https://www.linkedin.com/in/binghamchris">Chris Bingham</a></p>   
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
             <p class="social-media">
               <a href="https://www.linkedin.com/in/binghamchris" data-toggle="tooltip" title="linkedin"><i class="fa fa-linkedin"></i></a>
               <a href="https://www.xing.com/profile/Chris_Bingham" data-toggle="tooltip" title="xing"><i class="fa fa-xing"></i></a>
               <a href="https://github.com/binghamchris" data-toggle="tooltip" title="github"><i class="fa fa-github"></i></a>
             </p>
-         </div>
+          </div>
         </div>
-      </div>  
+      </div>
     </div>
-    <!-- /Footer Section -->
+    <!-- End footer content -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/AnimOnScroll.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz4whM-6qf0A8Hug4kxEHOYtp57i940b4&libraries=places"></script>
-    <script src="js/init.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-  </body>
-</html>
+</body></html>
