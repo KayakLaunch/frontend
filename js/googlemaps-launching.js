@@ -9,7 +9,7 @@
           zoom: 3,
           zoomControl: true,
           zoomControlOptions: {
-              position: google.maps.ControlPosition.TOP_LEFT
+              position: google.maps.ControlPosition.TOP_RIGHT
           },
           streetViewControl: false,
           fullscreenControl: false,
