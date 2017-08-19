@@ -230,7 +230,7 @@ a:hover {
 }
 
 #launching-map {
-	height: 100%;
+	height: calc(100% - 31px);
 	padding: 0;
 }
 
