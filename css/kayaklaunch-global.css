@@ -1,5 +1,8 @@
+/*********************/
 /* Global styles */
+/*********************/
 
+/* Standard DOM Elements Styles */
 html {
 	height: 100%;
 
@@ -10,7 +13,6 @@ body {
 	background-color: rgb(248, 248, 248);
   font-family: 'Comfortaa', cursive;
   font-size: 16px
-  z-index: 5;
 }
 
 h1, h2, h3 {
@@ -21,6 +23,7 @@ a:hover {
   color: rgb(49, 123, 136) !important;
 }
 
+/* Main content block styles */
 .container {
 	width: 100%;
 }
@@ -33,6 +36,7 @@ a:hover {
   padding-bottom: 0.35em;
 }
 
+/* Footer block styles */
 #footer {
   background-color: rgb(248, 248, 248);
   padding-top: 6px;
@@ -50,12 +54,14 @@ a:hover {
   padding-right: 1em;
 }
 
+/* Title row styles */
+/* Title row height for phones and small tablets */
 @media (max-width: 768px) {
   .route-title-row, .about-title-row {
     height: 200px;
   }
 }
-
+/* Title row height for large tablets and desktops */
 @media (min-width: 768px) {
   .route-title-row, .about-title-row {
     height: 225px;
@@ -68,6 +74,7 @@ a:hover {
   padding-top: 60px;
 }
 
+/* Navigation bar styles */
 .navbar {
   background: rgb(133, 178, 211);
   border: 0;
@@ -77,14 +84,12 @@ a:hover {
   border-bottom-left-radius: 10px;
 }
 
-
+/* Modification of navigation bar placement on desktops */
 @media (min-width: 1200px) {
   .navbar {
     margin-top: 7px;
   }
-}
 
-@media (min-width: 1200px) {
   .navbar {
     margin-left: 8.3333%;
     margin-right: 8.3333%;
@@ -135,6 +140,7 @@ a:hover {
   font-size: 30px;
 }
 
+/* Button styles */
 .btn-primary {
   background-color: rgb(30, 81, 146);
   margin-top: 1em;
@@ -155,6 +161,7 @@ a:hover {
   color: rgb(248, 248, 248) !important;
 }
 
+/* Icon styles */
 .icon {
   height: 40px;
   padding: 0;
@@ -164,12 +171,14 @@ a:hover {
   margin-bottom: 8px !important;
 }
 
+/* Modification of main logo size on navigation bar */
 .navbar .icon {
   height: 35px;
 }
 
+/* Modification of main logo placement on navigation bar */
 @media (max-width: 768px) {
-  .icon {
+  .navbar .icon {
     margin-right: 0 !important;
     margin-left: 10px !important;
   }
@@ -177,13 +186,15 @@ a:hover {
 
 /*********************/
 /* Home page styles */
+/*********************/
 
+/* Modification of footer design for home page */
 #home-body #footer {
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 60%, rgba(248, 248, 248, 0.75) 80%, rgba(248, 248, 248, 0) 100%);
   border-top: 0px;
 }
 
-/* Phones background */
+/* Modification of background for phones background */
 @media (max-width: 768px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
@@ -212,6 +223,7 @@ a:hover {
 
 /*********************/
 /* Launching Spots page styles */
+/*********************/
 
 #launching-body > #footer {
   margin-top: 0;
@@ -229,30 +241,31 @@ a:hover {
 
 /*********************/
 /* Google Maps styles */
+/*********************/
+/* Modifies standard map control placement to align with and avoid clashing with the navigation bar */
 
-
-div.gmnoprint {
+#launching-map div.gmnoprint {
   margin-top: 60px !important;
 }
 
-div.gmnoprint:last-of-type {
+#launching-map div.gmnoprint:last-of-type {
   margin-top: 0px !important;
   margin-right: 0 !important;
 }
 
-.gm-style-mtc {
+#launching-map .gm-style-mtc {
   margin-top: 60px !important;
 }
 
-.gm-style-mtc > div:last-of-type {
+#launching-map .gm-style-mtc > div:last-of-type {
   margin-top: 60px !important;
 }
 
-.gm-bundled-control {
+#launching-map .gm-bundled-control {
   margin-top: 0px !important;
 }
 
-.map-controls {
+#launching-map .map-controls {
   margin-top: 60px !important;
   border: 1px solid transparent;
   border-radius: 2px;
@@ -265,26 +278,26 @@ div.gmnoprint:last-of-type {
 }
 
 @media (min-width: 1200px) {
-  .launching-map-search {
+  #launching-map .launching-map-search {
     margin-left: 8.3333% !important;
   }
 
-  div.gmnoprint {
+  #launching-map div.gmnoprint {
     margin-right: 8.3333% !important;
     margin-top: 67px !important;
   }
-  div.gmnoprint:last-of-type {  
+  #launching-map div.gmnoprint:last-of-type {  
     margin-right: 0 !important;
   }
-  .gm-style-mtc {
+  #launching-map .gm-style-mtc {
     margin-top: 67px !important;
   }
 
-  .gm-style-mtc > div:last-of-type {
+  #launching-map .gm-style-mtc > div:last-of-type {
     margin-top: 67px !important;
   }
 
-  .map-controls {
+  #launching-map .map-controls {
     margin-top: 67px !important;
   }
 }
@@ -313,10 +326,7 @@ div.gmnoprint:last-of-type {
 
 /*********************/
 /*Routes listing styles*/
-
-.route-map {
-	min-height: 400px;
-}
+/*********************/
 
 .route-row {
 	min-height: 250px;
@@ -329,6 +339,8 @@ div.gmnoprint:last-of-type {
   margin-top: 1.5em;
 }
 
+/* Route-specific styles */
+/* Bönigen to Iseltwlad route row */
 #route-row-iseltwald {
   background-image: url("../img/iseltwald-background.jpg");
   background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
@@ -338,6 +350,7 @@ div.gmnoprint:last-of-type {
   background-size: cover;
 }
 
+/* Lachen Round Trip route row */
 #route-row-lachen {
   background-image: url("../img/lachen-background.jpg");
   background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
@@ -349,7 +362,10 @@ div.gmnoprint:last-of-type {
 
 /*********************/
 /*Route information page styles*/
+/*********************/
 
+/* Route-specific styles */
+/* Bönigen to Iseltwlad route information page title */
 #route-title-row-iseltwald {
 	background-image: url("../img/iseltwald-background.jpg");
 	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/iseltwald-background.jpg');
@@ -359,6 +375,7 @@ div.gmnoprint:last-of-type {
   background-size: cover;
 }
 
+/* Lachen Round Trip route information page title */
 #route-title-row-lachen {
   background-image: url("../img/lachen-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
@@ -366,6 +383,11 @@ div.gmnoprint:last-of-type {
   background-position: center 42%;
   background-attachment: scroll;
   background-size: cover;
+}
+
+/* General route information page styles */
+.route-map {
+  min-height: 400px;
 }
 
 .route-weather {
@@ -389,6 +411,7 @@ div.gmnoprint:last-of-type {
   list-style-type: none;
   padding-bottom: 0 !important;
 }
+
 .route-craft-times > li > .icon {
   list-style-type: none;
   margin-top: 0 !important;
@@ -397,6 +420,8 @@ div.gmnoprint:last-of-type {
 
 /*********************/
 /* About page */
+/*********************/
+
 .about-title-row {
   background-image: url("../img/about-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/about-background.jpg');
@@ -404,17 +429,4 @@ div.gmnoprint:last-of-type {
   background-position: center 30%;
   background-attachment: scroll;
   background-size: cover;
-}
-
-.about-social-icon  {
-  font-size: 1.2em;
-  text-align: right;
-}
-.about-attribution-row {
-  margin-top: 3em;
-  vertical-align: center;
-}
-.about-social-icon > a {
-  margin-left: 1em;
-  margin-right: 1em;
 }
