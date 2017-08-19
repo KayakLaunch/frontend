@@ -1,46 +1,46 @@
-(function($){
-  $(function(){
-    // Map
+// Generalised function for displaying route maps
 
-      function initializeMap() {
-        var myLatLong = new google.maps.LatLng(0.0,0.0);
-        var mapOptions = {
-          center: myLatLong,
-          scrollwheel: false,
-          zoom: 3,
-          zoomControl: true,
-          zoomControlOptions: {
-              position: google.maps.ControlPosition.TOP_LEFT
-          },
-          streetViewControl: false,
-          fullscreenControl: false,
-          mapTypeControl: false,
-          mapTypeId: 'terrain'
-        };
-        var mapIseltwald = new google.maps.Map(document.getElementById("map-canvas-iseltwald"),
-            mapOptions);
+function initializeMap(mapDiv, kmlUrl, showLaunchingMap) {
 
-        var mapData = 'https://raw.githubusercontent.com/binghamchris/kayaklaun.ch/dev-v2.0/map/iseltwald.kml';
-        var kmlLayerRoute = new google.maps.KmlLayer(mapData, {
-          suppressInfoWindows: false,
-          preserveViewport: false,
-          map: mapIseltwald
-        });
+  // Set Google Maps options
+  // These are kept identical across all route maps on the site
+  var myLatLong = new google.maps.LatLng(0.0,0.0);
+  var mapOptions = {
+    center: myLatLong,
+    scrollwheel: true,
+    zoom: 3,
+    zoomControl: true,
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_LEFT
+    },
+    streetViewControl: false,
+    fullscreenControl: false,
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.DEFAULT,
+      position: google.maps.ControlPosition.TOP_RIGHT
+    },
+    mapTypeId: 'terrain'
+  };
 
-        var mapLachen = new google.maps.Map(document.getElementById("map-canvas-lachen"),
-            mapOptions);
+  // Bind the map to the targeted div
+  var map = new google.maps.Map(document.getElementById(mapDiv), mapOptions);
 
-        var mapData = 'https://raw.githubusercontent.com/binghamchris/kayaklaun.ch/dev-v2.0/map/lachen.kml';
-        var kmlLayerRoute = new google.maps.KmlLayer(mapData, {
-          suppressInfoWindows: false,
-          preserveViewport: false,
-          map: mapLachen
-        });
-      }
-      function initialize() {
-        initializeMap();
-      }
-      google.maps.event.addDomListener(window, 'load', initializeMap);
+  // If requested, add the launching spots mapping data to the map
+  if (showLaunchingMap) {
+	  var mapData = 'https://github.com/binghamchris/kayaklaunch/blob/gh-pages/map/kayaklaunch-network.kmz?raw=true';
+	  var kmlLayerLaunching = new google.maps.KmlLayer(mapData, {
+	    suppressInfoWindows: false,
+	    preserveViewport: false,
+	    map: map
+	  });
+	}
 
-	}); // end of document ready
-})(jQuery); // end of jQuery name space
+  // Add the route's mapping data to the map
+  var mapData =  kmlUrl;
+  var kmlLayerRoute = new google.maps.KmlLayer(mapData, {
+    suppressInfoWindows: false,
+    preserveViewport: false,
+    map: map
+  });
+}

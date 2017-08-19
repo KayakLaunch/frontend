@@ -8,7 +8,6 @@
     <meta name="description" content="KayakLaun.ch: Launching spots and routes for kayaks, canoes, and SUPs">
     <meta name="author" content="Chris Bingham">
 
-
     <title>KayakLanuch: Route - Bönigen to Iseltwlad</title>
 
     <!-- Bootstrap core CSS -->
@@ -56,7 +55,7 @@
       </div>
     </nav>
     <!-- End navbar -->
-    <!--<div>test</div>-->
+
     <!-- Begin main page content -->
     <div class="container content">
       <div id="route-title-row-iseltwald" class="route-title-row title-row row">
@@ -209,6 +208,9 @@
 
     <!-- Google Maps Javascript API calls -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKaxuDRE8K0nnjW3-X-sGztahpmrZBC90&amp;libraries=places"></script>
-    <script src="js/googlemaps-route-iseltwald.js"></script>
+    <script src="js/googlemaps-routes.js"></script>
+    <script>
+      initializeMap('map-canvas', 'https://raw.githubusercontent.com/binghamchris/kayaklaun.ch/gh-pages/map/iseltwald.kml', true);
+    </script>
 
 </body></html>
