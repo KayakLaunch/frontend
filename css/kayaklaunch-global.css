@@ -33,25 +33,51 @@ a:hover {
 }
 
 .content li:not(:last-of-type) {
-  padding-bottom: 0.35em;
+  padding-bottom: 0.4em;
+}
+
+.content ul {
+  margin-bottom: 0;
 }
 
 /* Footer block styles */
 #footer {
-  background-color: rgb(248, 248, 248);
-  padding-top: 6px;
+  background-color: rgba(248, 248, 248, 0.7);
+  padding-top: 9px;
   padding-bottom: 5px;
   font-size: 10px;
-  border-top: 1px solid rgb(30, 81, 146) ;
   height: 31px;
   margin-top: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 27px;
+  border-color: rgba(30, 81, 146, 0.5);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 0px;
 }
 
 #footer .social-media {
   text-align: right;
 }
+
 #footer .social-media a:not(:last-of-type) {
   padding-right: 1em;
+}
+
+/* Modification of footer bar placement on desktops */
+@media (min-width: 1200px) {
+  #footer {
+    margin-left: 8.3333%;
+    margin-right: 8.3333%;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 7px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  .content {
+    min-height: calc(100% - 53px);
+  }
 }
 
 /* Title row styles */
@@ -78,9 +104,7 @@ a:hover {
 .navbar {
   background: rgb(133, 178, 211);
   border: 0;
-  border-top-right-radius: 15px;
   border-bottom-right-radius: 35px;
-  border-top-left-radius: 27px;
   border-bottom-left-radius: 10px;
 }
 
@@ -88,6 +112,8 @@ a:hover {
 @media (min-width: 1200px) {
   .navbar {
     margin-top: 7px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 27px;
   }
 
   .navbar {
@@ -187,12 +213,6 @@ a:hover {
 /*********************/
 /* Home page styles */
 /*********************/
-
-/* Modification of footer design for home page */
-#home-body #footer {
-  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 60%, rgba(248, 248, 248, 0.75) 80%, rgba(248, 248, 248, 0) 100%);
-  border-top: 0px;
-}
 
 /* Modification of background for phones background */
 @media (max-width: 768px) {
