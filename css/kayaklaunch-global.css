@@ -77,6 +77,13 @@ a:hover {
   border-bottom-left-radius: 10px;
 }
 
+
+@media (min-width: 1200px) {
+  .navbar {
+    margin-top: 7px;
+  }
+}
+
 @media (min-width: 1200px) {
   .navbar {
     margin-left: 8.3333%;
@@ -180,7 +187,7 @@ a:hover {
 @media (max-width: 768px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 40%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
     background-repeat: no-repeat;
     background-position: left center;
     background-attachment: fixed;
@@ -193,7 +200,7 @@ a:hover {
 
 #home-body{
 	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 33%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
 	background-repeat: no-repeat;
   background-position: left center;
   background-attachment: fixed;
@@ -245,23 +252,6 @@ div.gmnoprint:last-of-type {
   margin-top: 0px !important;
 }
 
-@media (min-width: 1200px) {
-  /*.gm-bundled-control, .map-controls, #pac-input {
-    margin-left: 8.3333% !important;
-    margin-right: 8.3333% !important;
-  }*/
-  .launching-map-search {
-    margin-left: 8.3333% !important;
-  }
-
-  div.gmnoprint {
-    margin-right: 8.3333% !important;
-  }
-  div.gmnoprint:last-of-type {  
-    margin-right: 0 !important;
-  }
-}
-
 .map-controls {
   margin-top: 60px !important;
   border: 1px solid transparent;
@@ -272,6 +262,31 @@ div.gmnoprint:last-of-type {
   outline: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   z-index: 10;
+}
+
+@media (min-width: 1200px) {
+  .launching-map-search {
+    margin-left: 8.3333% !important;
+  }
+
+  div.gmnoprint {
+    margin-right: 8.3333% !important;
+    margin-top: 67px !important;
+  }
+  div.gmnoprint:last-of-type {  
+    margin-right: 0 !important;
+  }
+  .gm-style-mtc {
+    margin-top: 67px !important;
+  }
+
+  .gm-style-mtc > div:last-of-type {
+    margin-top: 67px !important;
+  }
+
+  .map-controls {
+    margin-top: 67px !important;
+  }
 }
 
 #pac-input {
