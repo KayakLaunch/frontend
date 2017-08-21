@@ -214,31 +214,31 @@ a:hover {
 /* Home page styles */
 /*********************/
 
+#home-body{
+	background-image: url("../img/home-background.jpg");
+	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* Modification of background for phones background */
 @media (max-width: 768px) {
   #home-body{
     background-image: url("../img/home-background.jpg");
     background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 40%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: 15% center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-}
-
-#home-body{
-	background-image: url("../img/home-background.jpg");
-	background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(248, 248, 248, 0) 100%), url('../img/home-background.jpg') no-repeat;
-	background-repeat: no-repeat;
-  background-position: left center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /*********************/
@@ -365,7 +365,7 @@ a:hover {
   background-image: url("../img/iseltwald-background.jpg");
   background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
   background-repeat: no-repeat;
-  background-position: center 62%;
+  background-position: center bottom;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -375,7 +375,7 @@ a:hover {
   background-image: url("../img/lachen-background.jpg");
   background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
   background-repeat: no-repeat;
-  background-position: center 42%;
+  background-position: center 40%;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -390,7 +390,7 @@ a:hover {
 	background-image: url("../img/iseltwald-background.jpg");
 	background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/iseltwald-background.jpg');
 	background-repeat: no-repeat;
-  background-position: center 66%;
+  background-position: center bottom;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -400,7 +400,7 @@ a:hover {
   background-image: url("../img/lachen-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
   background-repeat: no-repeat;
-  background-position: center 42%;
+  background-position: center center;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -446,7 +446,7 @@ a:hover {
   background-image: url("../img/about-background.jpg");
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/about-background.jpg');
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center 25%;
   background-attachment: scroll;
   background-size: cover;
 }
