@@ -189,7 +189,7 @@ a:hover {
 
 /* Icon styles */
 .icon {
-  height: 40px;
+  width: 40px;
   padding: 0;
   margin-left: 0 !important;
   margin-right: 10px !important;
@@ -363,9 +363,9 @@ a:hover {
 /* Bönigen to Iseltwlad route row */
 #route-row-iseltwald {
   background-image: url("../img/iseltwald-background.jpg");
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/iseltwald-background.jpg');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center 95%;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -373,7 +373,7 @@ a:hover {
 /* Lachen Round Trip route row */
 #route-row-lachen {
   background-image: url("../img/lachen-background.jpg");
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lachen-background.jpg');
   background-repeat: no-repeat;
   background-position: center 40%;
   background-attachment: scroll;
@@ -383,11 +383,21 @@ a:hover {
 /* Levanto to Vernazza route row */
 #route-row-levanto {
   background-image: url("../img/levanto-background.jpg");
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/levanto-background.jpg');
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/levanto-background.jpg');
   background-repeat: no-repeat;
   background-position: center 25%;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.route-row p span {
+  margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+  .routes-col-info {
+    margin-top: 20px;
+  }
 }
 
 /*********************/
@@ -458,7 +468,7 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
-.route-about-table tr:nth-of-type(2) > td {
+.route-about-table tr:nth-of-type(3) > td {
   padding-left: 60px;
 }
 
