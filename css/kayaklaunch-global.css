@@ -380,6 +380,16 @@ a:hover {
   background-size: cover;
 }
 
+/* Levanto to Vernazza route row */
+#route-row-levanto {
+  background-image: url("../img/levanto-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 45%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/levanto-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 /*********************/
 /*Route information page styles*/
 /*********************/
@@ -401,6 +411,16 @@ a:hover {
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lachen-background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* Levanto to Vernazza route information page title */
+#route-title-row-levanto {
+  background-image: url("../img/levanto-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/levanto-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 40%;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -436,6 +456,10 @@ a:hover {
   list-style-type: none;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+.route-about-table tr:nth-of-type(2) > td {
+  padding-left: 60px;
 }
 
 /*********************/
