@@ -390,6 +390,16 @@ a:hover {
   background-size: cover;
 }
 
+/* Longships Lighthouse and Landsend route row */
+#route-row-landsend {
+  background-image: url("../img/landsend-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/landsend-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .route-row p span {
   margin-right: 30px;
 }
@@ -431,6 +441,16 @@ a:hover {
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/levanto-background.jpg');
   background-repeat: no-repeat;
   background-position: center 40%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* Longships Lighthouse and Landsend route information page title */
+#route-title-row-landsend {
+  background-image: url("../img/landsend-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/landsend-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 95%;
   background-attachment: scroll;
   background-size: cover;
 }
