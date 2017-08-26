@@ -2,37 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Levanto Kayaking</name>
-    <Style id="line-FF0000-3000-nodesc-normal">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>3</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-FF0000-3000-nodesc-highlight">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>4.5</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-FF0000-3000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF0000-3000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF0000-3000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Placemark>
       <name>Track</name>
-      <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+      <Style>
+        <LineStyle>
+          <color>FF0000FF</color>
+          <width>3.0</width>
+        </LineStyle>
+      </Style>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
