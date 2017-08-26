@@ -5,3 +5,4 @@ http://www.kayaklaun.ch/routes.html
 http://www.kayaklaun.ch/route-iseltwald.html
 http://www.kayaklaun.ch/route-lachen.html
 http://www.kayaklaun.ch/route-levanto.html
+http://www.kayaklaun.ch/route-landsend.html
