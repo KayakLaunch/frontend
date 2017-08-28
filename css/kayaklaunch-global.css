@@ -400,6 +400,16 @@ a:hover {
   background-size: cover;
 }
 
+/* Lucerne to Hergiswil route row */
+#route-row-lucerne {
+  background-image: url("../img/lucerne-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/lucerne-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .route-row p span {
   margin-right: 30px;
 }
@@ -451,6 +461,16 @@ a:hover {
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/landsend-background.jpg');
   background-repeat: no-repeat;
   background-position: center 95%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* Lucerne to Hergiswil route information page title */
+#route-title-row-lucerne {
+  background-image: url("../img/lucerne-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lucerne-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 70%;
   background-attachment: scroll;
   background-size: cover;
 }
