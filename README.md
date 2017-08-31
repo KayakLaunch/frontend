@@ -11,3 +11,4 @@ The following APIs, frameworks, and resources were used in the creation of Kayak
 * [Google Fonts: Comfortaa](https://fonts.google.com/specimen/Comfortaa): Font for main content and navigation bar
 * [Font Awesome v4.7.0](http://fontawesome.io): Used for social media icons
 * [Google Analytics](https://analytics.google.com): Provides site usage and audience analytics
+* [AWS Route53](https://aws.amazon.com/route53/): Hosts the kayaklaun.ch. domain
