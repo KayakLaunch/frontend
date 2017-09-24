@@ -8,3 +8,4 @@ http://www.kayaklaun.ch/route-levanto.html
 http://www.kayaklaun.ch/route-landsend.html
 http://www.kayaklaun.ch/route-lucerne.html
 http://www.kayaklaun.ch/route-godrevy.html
+http://www.kayaklaun.ch/route-weesen.html
