@@ -425,6 +425,16 @@ a:hover {
   background-size: cover;
 }
 
+/* Weesen to Murg route row */
+#route-row-weesen {
+  background-image: url("../img/weesen-background.jpg");
+  background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 47%, rgba(0, 0, 0, 0) 93%, rgba(248, 248, 248, 1) 100%), url('../img/weesen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 68%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .route-row p span {
   margin-right: 30px;
 }
@@ -496,6 +506,16 @@ a:hover {
   background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/lucerne-background.jpg');
   background-repeat: no-repeat;
   background-position: center 70%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* Weesen to Murg route information page title */
+#route-title-row-weesen {
+  background-image: url("../img/weesen-background.jpg");
+  background: linear-gradient(to top, rgba(248, 248, 248, 1) 0%, rgba(248, 248, 248, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../img/weesen-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 65%;
   background-attachment: scroll;
   background-size: cover;
 }
