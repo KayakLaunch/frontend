@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: DNS zone for kayaklaun.ch.
+
+Resources:
+  kayakLaunchZone:
+    Type: "AWS::Route53::HostedZone"
+    Properties: 
+      Name: kayaklaun.ch.
+
+Outputs:
+  kayakLaunchNameServers:
+    Description: Nameservers which the kayaklaun.ch. domain should utilise
+    Value: !Join [ ' ', !GetAtt kayakLaunchZone.NameServers]
+  kayakLaunchZoneID:
+    Description: Route53 Zone ID for the kayaklaun.ch. zone
+    Value: !Ref kayakLaunchZone
